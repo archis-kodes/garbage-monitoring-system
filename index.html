@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Garbage Monitoring System</title>
+
+    <link rel="stylesheet" href="/static/styles.css">
+
+    <style>
+
+        /* Import League Spartan font */
+
+        @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="title">GARBAGE MONITORING SYSTEM</h1>
+
+        
+
+        <div class="bins">
+
+            <!-- Biodegradable Bin -->
+
+            <div class="bin-container">
+
+                <div class="progress-bar" id="bio-progress-bar">
+
+                    <span class="progress-text" id="bio-progress-text">0%</span>
+
+                </div>
+
+                <img src="/static/green.png" alt="Green Bin" class="bin-image">
+
+                <p class="bin-label">Wet Waste</p>
+
+            </div>
+
+
+
+            <!-- Ewaste Bin -->
+
+            <div class="bin-container">
+
+                <div class="progress-bar" id="ewaste-progress-bar">
+
+                    <span class="progress-text" id="ewaste-progress-text">0%</span>
+
+                </div>
+
+                <img src="/static/black.png" alt="Black Bin" class="bin-image">
+
+                <p class="bin-label">Metal Waste</p>
+
+            </div>
+
+
+
+            <!-- Non-Biodegradable Bin -->
+
+            <div class="bin-container">
+
+                <div class="progress-bar" id="nonbio-progress-bar">
+
+                    <span class="progress-text" id="nonbio-progress-text">0%</span>
+
+                </div>
+
+                <img src="/static/blue.png" alt="Blue Bin" class="bin-image">
+
+                <p class="bin-label">Dry Waste</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Modal for Warning Message -->
+
+    <div id="warning-modal" class="modal">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <img src="/static/warn.png" alt="Warning Icon" class="warning-icon">
+
+                <h2 class="modal-title">WARNING!</h2>
+
+            </div>
+
+            <p id="modal-message">Clean Dry Bin: 0%</p>
+
+            <button class="ok-button" onclick="closeModal()">OK</button>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>
+
