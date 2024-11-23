@@ -1,6 +1,6 @@
 # garbage-monitoring-system
 
-Garbage Monitoring System is a Project that uses Raspberry Pi to:
+Garbage Monitoring System is a Project that uses Raspberry Pi to: /b
         >>>  Segregate Garbage
         >>>  Fill Level Monitoring
         >>>  Notification
