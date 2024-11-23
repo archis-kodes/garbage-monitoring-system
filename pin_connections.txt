@@ -1,0 +1,16 @@
+****************************************
+**********  PIN  CONNECTIONS  **********
+****************************************
+
+
+BioTrig      ----->  GPIO 17
+BioEcho      ----->  GPIO 27
+
+NonbioTrig   ----->  GPIO 22
+NonbioEcho   ----->  GPIO 25
+
+CheckerTrig  ----->  GPIO 23
+CheckerEcho  ----->  GPIO 24
+
+Rain_Sensor  ----->  GPIO 14
+Servo Motor  ----->  GPIO 18 
